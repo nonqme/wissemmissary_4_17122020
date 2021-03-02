@@ -18,13 +18,8 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+.hovernav:hover {
+    text-decoration: underline!important;
 }
 
 .bloc {
@@ -147,6 +142,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -475,6 +471,10 @@ button {
     font-size: 30px!important;
 }
 
+.socialtxt {
+    color: white!important;
+}
+
 .icon-lg {
     font-size: 60px!important;
 }
@@ -673,7 +673,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -755,7 +755,6 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -767,21 +766,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BD5B00;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFD0A3!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BD5B00;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .ltc-white {
