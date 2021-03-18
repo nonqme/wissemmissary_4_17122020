@@ -86,6 +86,13 @@ a:hover {
 }
 
 
+.texture-paper::before {
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
+}
+
+
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -619,6 +626,7 @@ a[data-lightbox]:hover img {
     right: 25px;
 }
 
+
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
@@ -805,6 +813,10 @@ h4 {
     border-color: #364577!important;
 }
 
+.bg-dots-bg {
+    background-image: url("img/dots-bg.png");
+}
+
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -824,6 +836,10 @@ h4 {
 .mailto:hover {
     color: #cccccc!important;
     text-decoration: underline;
+}
+
+.img-responsive {
+    width: 100%;
 }
 
 
